@@ -15,10 +15,10 @@ class Solution{
         String temp;
         for (int i = 0; i < n; i++) {
             BigDecimal big = new BigDecimal(s[i]);
-            int j=i;
-            for (int k = i+1; k < n; k++) {
+            int j=i;  //Store a copy of the current index
+            for (int k = i+1; k < n; k++) {  //Iterate the array starting ahead of current index
                 BigDecimal present = new BigDecimal(s[k]);
-                if(present.compareTo(big)==1){
+                if(present.compareTo(big)==1){  //Compare current value with big value and if current value is bigger than update the big value
                     big=present;
                     j=k;
                 }
@@ -31,7 +31,7 @@ class Solution{
         //Output
         for(int i=0;i<n;i++)
         {
-            System.out.println(s[i]);
+            System.out.println(s[i]);  //Print the array
         }
     }
 

@@ -14,7 +14,7 @@ public class Solution {
         String n = bufferedReader.readLine();
         bufferedReader.close();
         BigInteger b = new BigInteger(n);
-        if(b.isProbablePrime(50)){
+        if(b.isProbablePrime(50)){  //Use isProbablePrime method with certainty of 50 and if true then print message
             System.out.println("prime");
         }
         else
