@@ -19,8 +19,8 @@
 - Take the input from the user and use a switch statement based on the users input the corresponding operation will be performed. Cases are defined for various operations. In each case the operation is performed and corresponding output is displayed.
 
 ### Q7
-- For case sensitivity: Take two String inputs from the user and declare a check variable. Use "equalsTo()" method to check for equality and store the return value in check variable. ased on the value in check display the corresponding message
-- For no case sensitivity: Take two String inputs from the user and declare a check variable. Use "equalsIgnoreCase()" method to check for equality and store the return value in check variable. ased on the value in check display the corresponding message.
+- For case sensitivity: Take two String inputs from the user and declare a check variable. Use "equalsTo()" method to check for equality and store the return value in check variable. Based on the value in check display the corresponding message
+- For no case sensitivity: Take two String inputs from the user and declare a check variable. Use "equalsIgnoreCase()" method to check for equality and store the return value in check variable. Based on the value in check display the corresponding message.
 
 ### Q8
 - Take an integer input from the user and store a copy of it to compare later. Take the first digit (remainder operation) and add it to its reverse number, then take the next number multiply by 10 and add it to reverse number, repeat the process until all digits are covered. Once the reverse number is obtained, compare it with the copy and display the message accordingly.
