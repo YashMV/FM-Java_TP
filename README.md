@@ -52,3 +52,12 @@
 - Take an array from the user and store their corresponding characters in a separate character array and then display that character array as a string.
 - Take a String fro the user and convert it into a character array using "toCharArray()" method and store their corresponding ASCII values in a separate integer array and then print that integer array.
 - Typecasting is used to get the ASCII values from characters and also to get characters from ASCII values.
+
+### Q18_1_Java Primality Test
+- Take in the string using BufferedReader class and convert it into a BigInteger by making an object. The "isProbablePrime()" works on BigIntegers and takes in a certainty. Returns true if the number is probably a prime and false if it is certainly composite. Then we print the messages accordingly for prime or not prime.
+
+### Q18_1_Pattern Syntax Checker
+- A try and catch block is used to test a code and to do a further action if an exception has occurred. Here we try the Pattern.coompile() method and if we catch an exception we set the flag to 1. If the flag is 1 then it is an invalid string and if it remains 0 then it is a valid string. Test cases are the number of strings we want to test.
+
+### Q18_2_Java BigInteger
+- Take two Strings and convert into Big Integers by making them objects of BigInteger class. Create and initialize two more bigintegers "add" and "mul" to store the value
